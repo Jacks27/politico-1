@@ -1,0 +1,49 @@
+<head>
+        <title>
+        Delete Office
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" type="text/css" href="base.css">
+        </head>
+        <body>
+        
+            <div class="tnav" id="myTopnav">
+                <a href="office_registration.html" class="active">Register office</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  
+                </a>
+              </div>
+            
+            <div class="container">
+                <div class="col">
+                           <div style="text-align:center"><h2>Delete a office</h2></div>
+                           <p><i>Search the office you want to delete and click delete.</i></p>
+                           <form action="#" method="">
+                                <label>Office name</label><br><input type="text"  placeholder="Search office..." class="input_search" >
+
+                              <input type="submit" class="sl_btn" value="Search">	
+                                </form>
+                                <form action="" method="">
+                                        <input type="submit" class="Dl_btn" value="Delete">	
+                                </form>
+                </div>
+            </div>
+        <!-- javascript section -->
+        <script>
+        
+        function myFunction() {
+        
+          var x = document.getElementById("myTopnav");
+          if (x.className === "tnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "tnav";
+          }
+        }
+        </script>
+        <footer><p style="text-align:center">&copy;2019 <B>||</B>contact us: 0725632849</p></footer>
+        </body>
+        </html>
