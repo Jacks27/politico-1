@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="base.css">
+    <link rel="stylesheet" type="text/css" href="table.css">
+    </head>
+<body>
+              <div class="tnav" id="myTopnav">
+                 <a href="login.html">Login</a>
+                <a href="sign_up.html">Sign up</a>
+                <a href="voting_page.html">Voting Page</a>
+                <a href="petition.html">Petition</a>
+                <a href="office_registration.html">Admin</a>
+                <a href="delete_office.html">Delete</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  
+                </a>
+              </div>
+       
+            <h1>Voting Results</h1>
+<table>
+   
+   <tr><th>Name</th><th>Party</th><th>Region</th><th>Office</th><th>Remove</th></tr>
+     <tr><td>JK<img src="images/mdf.png" style="width:10%;"/></td><td>RIVA</td><td>NAI</td><td>Senetor</td><td><form method="POST" action="">
+         <input type="hidden" name="pp_name"><input type="submit" class="Dl_btn" value="Delete"></form></td></tr>
+     <tr><td>RC<img src="images/mdf.png" style="width:10%; margin: 0%;"/></td><td>OCR</td><td>NAI</td><td>Senetor</td><td><form method="POST" action="">
+        <input type="hidden" name="pp_name"><input type="submit" class="Dl_btn" value="Delete"></form></td></tr>
+</table>   
+    
+
+    
+</body>
+<!-- javascript section -->
+    
+<script>
+    
+        function myFunction() {
+        
+          var x = document.getElementById("myTopnav");
+          if (x.className === "tnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "tnav";
+          }
+        }
+        </script>
+        <footer style="text-align:center; margin-top: 6%;" >
+        
+        
+        
+          <b>Open 8:00 pm - 5:00 pm Mon-Fri</b> ||
+       
+          <b>Nairobi - anniversary</b> ||
+            <b>P.O Box 324555 Nairobi </b>
+            ||
+           
+              <b>0725632 849 or +020 438949439</b>
+        
+             
+           1</footer>
+</html>
