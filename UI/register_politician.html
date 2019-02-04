@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="base.css">
+    </head>
+<body>           <div class="tnav">
+ 
+  <div class="dropdown">
+    <button class="dropbtn"> Admin
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="office_registration.html">Create Political Office</a>
+      <a href="delete_offce.html">Remove political offfice</a>
+      <a href="remove_politician.html">Remove Politician</a>
+    </div>
+  </div> 
+  <!-- Politician -->
+  <div class="dropdown">
+    <button class="dropbtn">Voter
+      
+    </button>
+    <div class="dropdown-content">
+      <a href="login.html">Login</a>
+      <a href="voting_page.html">Voting Page</a>
+      <a href="results.html">Voting Results</a>
+      
+    </div>
+  </div> 
+  <!-- Voter -->
+  <div class="dropdown">
+    <button class="dropbtn"> 
+     Politician
+    </button>
+    <div class="dropdown-content">
+      <a href="petition.html">Petition</a>
+    </div>
+  </div> 
+</div>
+        
+        <div class="container">
+                <div class="col">
+                <h1>Add apolitician</h1>
+                <p><i>All the fields are required *</i></p>
+                <form action="#" method="">
+                <label>Name</label>
+                                <input type="text" name="party_name" placeholder='Party Name' class="input_txt" required><br>
+                <label>Politician ID*</label>
+                                <input type="text" name="party_name" placeholder='Party Certificate ID' class="input_txt" required><br>	
+                <label>Location*</label>
+                                <input type="text" name="location" placeholder='Location' maxlength="10" class="input_txt" required><br>
+                <label>Address</label>
+                                <input type="text" name="address" placeholder='Address' class="input_txt" required><br>
+                <label>Region</label>
+                        <input type="text" name="initials" placeholder='Initials' class="input_txt" required><br>
+                <label>Party Name</label><br>
+                               <select>
+<option> party 1</option>
+<option>party 2</option>
+<option>party 3</option>
+</select> 
+                        <br>
+                        <input type="submit" class="l_btn" value="submit">	
+                
+                </form>
+                
+                
+                </div>
+                </div>
+                <script>
+                
+                function myFunction() {
+                
+                  var x = document.getElementById("myTopnav");
+                  if (x.className === "tnav") {
+                    x.className += " responsive";
+                  } else {
+                    x.className = "tnav";
+                  }
+                }
+                </script><br>
+                <footer><div class="col">
+<h3>Our Offices</h3>
+<hr>
+<p><i>Open 8:00 pm - 5:00 pm</i><p>
+<hr>
+<p><i>Nairobi - anniversary </i><p></div>
+
+<p style="text-align:center">&copy;2019 <B> | | </B>contact us: 0725632849</p></footer>
+    </body>
+    </html>
