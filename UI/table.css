@@ -1,0 +1,11 @@
+table{
+    width: 100%;
+    
+}
+th, td{
+    border-bottom: 1px solid black;
+}
+
+th{
+    background-color:#7d151591;
+}
