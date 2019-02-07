@@ -6,7 +6,7 @@ This an online system user interface that allows user to submit data as a voter 
 
 ## Usage
 
-1. Check out all the interface [here](https://jacks27.github.io/politico-1/UI/)!
+1. Check it out [here](https://jacks27.github.io/politico-1/UI/)!
 2. clone the repo Open index.html using a browser.
 ## Uses
 
@@ -15,4 +15,5 @@ This an online system user interface that allows user to submit data as a voter 
 * JS
 
 ## Validated
+
 * HTML 5
