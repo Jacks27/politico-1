@@ -5,13 +5,10 @@ from app.api.v1.model.party_model import PartyModel, parties_list
 my_v1= Blueprint('v1',__name__, url_prefix='/api/v1')
 
 class Party:
-    """ """
-    @my_v1.route('/', methods=['POST'])
-    def hello():
-        return "hello World"
+  
     @my_v1.route('/parties', methods =['POST'])
     def post():
-        """ function for posting data"""
+        """ function for posting data """
         data = request.get_json()
         name = data['name']
         hqAdress = data['hqAdress']
