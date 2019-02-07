@@ -1,0 +1,1 @@
+from app.api.v1.model import party_model
