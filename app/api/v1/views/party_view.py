@@ -5,20 +5,17 @@ from app.api.v1.model.party_model import PartyModel, parties_list
 my_v1= Blueprint('v1',__name__, url_prefix='/api/v1')
 
 class Party:
-    """ """
-    @my_v1.route('/', methods=['POST'])
-    def hello():
-        return "hello World"
+  
     @my_v1.route('/parties', methods =['POST'])
     def post():
-        """ function for posting data"""
+        """ function for posting data """
         data = request.get_json()
         name = data['name']
         hqAdress = data['hqAdress']
         logoUrl = data['logoUrl']
-        new_pty=PartyModel().save(name, hqAdress, logoUrl)
+        new_pty = PartyModel().save(name, hqAdress, logoUrl)
         return make_response(jsonify({
-            'msg':"Success"
+            'msg': "Success"
         }), 201)
 
     @my_v1.route('/all_paties', methods=['GET'])
