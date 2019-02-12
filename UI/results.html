@@ -9,17 +9,42 @@
     <link rel="stylesheet" type="text/css" href="table.css">
     </head>
 <body>
-              <div class="tnav" id="myTopnav">
-                 <a href="login.html">Login</a>
-                <a href="sign_up.html">Sign up</a>
-                <a href="voting_page.html">Voting Page</a>
-                <a href="petition.html">Petition</a>
-                <a href="office_registration.html">Admin</a>
-            <a href="delete_office.html">Delete</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                  
-                </a>
-              </div>
+    <div class="tnav" id="myTopnav">
+ 
+        <div class="dropdown" >
+          <button class="dropbtn"> Admin
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="office_registration.html">Create Political Office</a>
+            <a href="delete_offce.html">Remove political offfice</a>
+            <a href="remove_politician.html">Register Politician</a>
+            <a href="remove_politician.html">Remove Politician</a>
+          </div>
+        </div> 
+        <!-- Politician -->
+        <div class="dropdown">
+          <button class="dropbtn">Voter
+            
+          </button>
+          <div class="dropdown-content">
+            <a href="login.html">Login</a>
+            <a href="voting_page.html">Voting Page</a>
+            <a href="results.html">Voting Results</a>
+            
+          </div>
+        </div> 
+        <!-- Voter -->
+        <div class="dropdown">
+          <button class="dropbtn"> 
+           Politician
+          </button>
+          <div class="dropdown-content">
+            <a href="petition.html">Petition</a>
+          </div>
+        </div> 
+      </div>
+      
        
             <h1>Voting Results</h1>
 <table>
