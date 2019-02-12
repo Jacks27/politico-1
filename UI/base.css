@@ -113,11 +113,36 @@ background-color:#3a1aca87;
     margin-top: 10%;
 
 }
+
 .col{
+  text-align: center;
   min-height: 100%;
-	border-color: black;
+  border-color: black;
+  flex: 1;
+}
+.flex-grid {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.flex-grid .col {
+  width: 32%;
+  background-color: #3e336e87;
+  bottom: 0;
+  
 }
 
+
+@media (max-width: 400px) {
+  .flex-grid {
+    display: block;
+  }
+}
 .l_btn{
 	width: 8em;
 	height: 3em;
